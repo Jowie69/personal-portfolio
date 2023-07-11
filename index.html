@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--I'll add a comment lang-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewprt" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Personal Portfolio of Jowie Orlina Flores">
+    <meta name="keywords" content="Jowie Orlina Flores, Web Development, Freelance" />
+    <meta name="author"
+    content="Jowie Orlina Flores" />
+    <link rel="icon" type="image/png" href="images/logo (2).png">
+    <title>Personal Portfolio | J-Flow Services</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <i class='bx bx-menu'> id="<menu-icon></i>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css"
+</head>
+    <!--fill comment lang. try ko lang yung git feature-->
+<body>
+    <!-- header design -->
+    
+    <header class="header">
+        <span class="loader"></span>
+        <div class="logo1"><a href="#"><img src="images/brand7.png"</a></div>
+        <a href="#" class="logo">Personal Portfolio</a>
+        <div class="spinner">
+
+            <audio id="myAudio" autoplay loop>
+                <source src="cute-bg-music.mp3" type="audio/mp3">
+              </audio>
+
+              <script>
+                var audio = document.getElementById("myAudio");
+                var isPaused = false;
+              
+                // Pause the audio when the user leaves the website
+                window.onblur = function() {
+                  if (!audio.paused) {
+                    audio.pause();
+                    isPaused = true;
+                  }
+                };
+              
+                // Resume playback when the user returns to the website
+                window.onfocus = function() {
+                  if (isPaused) {
+                    audio.play();
+                    isPaused = false;
+                  }
+                };
+              </script>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am your friendly neighborhood,</h3>
+            <h1>Jowie Orlina Flores,</h1>
+            <h3>And I'm a <span>Full-Stack Web Developer!</span></h3>
+            <p>Welcome to my digital playground! I'm a 21-year-old multitasking dynamo from the vibrant Land of Oragons in Bicol, Philippines. As a Full-Stack Web Developer, Financial Markets Trader, Graphic Designer, Freelancer, and Social Media Affiliate Marketer, I'm like a one-person circus with a passion for all things digital!
+
+                Whether I'm diving into lines of code, taming the wild waves of financial markets, conjuring eye-popping designs, taking on exciting freelance projects, or dominating the social media realm as an affiliate marketer, I bring a level of enthusiasm and competitive fire that's hard to match.</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="#"><i class='bx bxl-upwork' ></i></a>
+                </div>
+            
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/home2.png" alt="">
+            </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home3.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Web Developer</h3>
+            <p>As an experienced full-stack web developer, I specialize in designing, developing, and maintaining web applications. With expertise in front-end technologies like HTML, CSS, and JavaScript, I create engaging user interfaces that prioritize usability and aesthetics. By utilizing frameworks such as React or Angular, I enhance interactivity and deliver seamless user experiences.</p>
+            <a href="#" class="btn2">Read More</a>
+        </div>
+    </section>
+
+        <!-- services section design -->
+        <section class="services" id="services">
+            <h2 class="heading">Services <span>Offered</span></h2>
+
+            <div class="services-container">
+                <div class="services-box">
+                    <i class='bx bx-code-block'></i>
+                    <h3>Web Development</h3>
+                    <p>I offer top-notch web development services tailored to your specific requirements. With my extensive experience and expertise, I can bring your ideas to life and create visually stunning, fully functional websites. Whether you need a simple static site or a dynamic web application with complex features, I have the skills to deliver exceptional results.</p>
+                    <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-palette' ></i>
+                <h3>Graphic Design</h3>
+                <p>At our creative studio, we take pride in offering top-notch graphic design services to meet your visual communication needs. Our team of talented designers possesses a keen eye for aesthetics and a passion for bringing ideas to life through captivating visuals. Whether you require a striking logo, engaging social media graphics, or a complete brand identity overhaul, we are here to assist you.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+            <i class='bx bxs-store' ></i>
+            <h3>Social Media Marketing</h3>
+            <p>We offer exceptional social media marketing services to enhance your online presence and reach a wider audience. Our experienced team crafts tailored strategies, creates engaging content, manages ad campaigns, and utilizes advanced analytics to ensure maximum impact across platforms like Facebook, Instagram, Twitter, and LinkedIn.</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+        <i class='bx bx-candles' ></i>
+        <h3>Financial Markets Trading Services</h3>
+        <p>We provide comprehensive financial markets trading services, catering to both experienced investors and newcomers alike. With our expert team and cutting-edge technology, we offer a range of investment options across various markets. Trust us to guide you towards your financial goals and experience the best that the trading industry has to offer.</p>
+        <a href="#" class="btn">Read More</a>
+</div>
+        </section>
+
+        <!-- portfolio section design -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="images/prj1.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/prj2.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering. Six projects in a month. *wink*</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/prj6.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering. Six projects in a month. *wink*</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/prj4.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering. Six projects in a month. *wink*</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/prj5.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering. Six projects in a month. *wink*</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="images/prj3.png" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Microsoft Excel-based Software</h4>
+                        <p>This is a commission-based project made last May 2023 during my time on BS Civil Engineering. Six projects in a month. *wink*</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- contact section design -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Let's <span> Talk!</span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject" required>
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+
+        <!-- footer design -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by J-Flow Services | All Rights Reserved.</p>
+            </div>
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+
+    <!-- custom js -->
+    <script scr="js/script.js"></script>
+</body>
+
+</html>
