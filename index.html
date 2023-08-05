@@ -19,12 +19,19 @@
 
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <i class='bx bx-menu' id="menu-icon"></i>
   
 </head>
     <!--fill comment lang. try ko lang yung git feature-->
 <body>
+    <div class="no-select">
+    <!--loader-->
+    <!--
+    <div class="container">
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <div class="ring"></div>
+        <p>Loading...</p>
+    </div>-->
     <!-- header design -->
     
     <header class="header">
@@ -34,7 +41,7 @@
         <div class="spinner">
 
             <audio id="myAudio" autoplay loop>
-                <source src="cute-bg-music.mp3" type="audio/mp3">
+                <source src="music/cute-bg-music.mp3" type="audio/mp3">
               </audio>
 
               <script>
@@ -58,15 +65,18 @@
                 };
               </script>
 
+        
+
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
         </nav>
     </header>
-
+    
     <!-- home section design -->
     <section class="home" id="home">
         <div class="home-content">
@@ -228,9 +238,15 @@
                 <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
             </div>
         </footer>
-
+</div>
 
     <!-- custom js -->
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            setTimeout(function){
+                $('.container').fadeToggle();
+            }, 1500);
+        </script>
     <script scr="js/script.js"></script>
 </body>
 
